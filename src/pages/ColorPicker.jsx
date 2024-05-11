@@ -83,10 +83,10 @@ const ColorPicker = () => {
   };
 
   const borderStyle = {
-    border: '10px solid #D8B4F8',
+    border: '20px solid #D8B4F8',
     borderRadius: '10px', // Adjust border properties as needed
-    height: '97vh',
-    width: '99vw',
+    height: '94vh',
+    width: '96vw',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
@@ -94,13 +94,13 @@ const ColorPicker = () => {
   };
 
   const headerStyle = {
-    width: '98vw',
+    width: '96vw',
     height: '10vh', // Adjust the height of the header
     backgroundColor: '#FBF0B2',
     position: 'absolute',
-    top: 5,
+    top: 20,
     right: 5,
-    left: 6,
+    left: 19,
     zIndex: 1, // Ensure the header is above other content
     display: 'flex',
     justifyContent: 'center',
