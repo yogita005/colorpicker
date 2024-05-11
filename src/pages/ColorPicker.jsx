@@ -86,7 +86,7 @@ const ColorPicker = () => {
     border: '10px solid #D8B4F8',
     borderRadius: '10px', // Adjust border properties as needed
     height: '97vh',
-    width: '97vw',
+    width: '99vw',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
@@ -100,7 +100,7 @@ const ColorPicker = () => {
     position: 'absolute',
     top: 5,
     right: 5,
-    left: 5,
+    left: 6,
     zIndex: 1, // Ensure the header is above other content
     display: 'flex',
     justifyContent: 'center',
